@@ -242,6 +242,18 @@ a {
   clear:both;
 }
 
+audio,
+canvas,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+tr,
+    img {
+        page-break-inside: avoid;
+    }
 .cf {
   zoom:1;
 }
